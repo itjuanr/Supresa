@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Adicionando o fundo de partículas */
 #particles-js {
     position: absolute;
@@ -19,6 +17,18 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal para centralização */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Animações para os botões */
@@ -59,8 +69,8 @@ button:disabled {
 
 /* Estilos para o formulário e surpresa */
 #form-box, #surprise-box {
-    margin: 20px auto;
-    padding: 20px;
+    margin: 30px auto;
+    padding: 35px;
     border: 1px solid #ff6f61;
     border-radius: 5px;
     background-color: #fff;
